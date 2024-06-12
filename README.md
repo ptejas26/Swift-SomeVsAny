@@ -89,3 +89,6 @@ These differences make `some` ideal for cases where you want the performance ben
 
 ### Output 
 ![image info](./SomevsAnyOutput.png)
+
+Want to read more: 
+https://swiftsenpai.com/swift/understanding-some-and-any/
