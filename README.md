@@ -19,6 +19,15 @@ The `some` keyword is used to denote opaque types, which hide the specific type 
 2. **Compile-Time Guarantees:** The compiler retains information about the specific type, allowing for optimizations and type safety.
 3. **Static Dispatch:** Opaque types use static dispatch, which can be more efficient than dynamic dispatch.
 
+### Real World Analogy 😝
+When you want to courier some parcel to a destination. The courier company provides you two options 
+1. **Pay price for a box of x volument and send anything inside it**
+2. **Give us the exact item to parcel and we will tell you cost**
+
+You understood this correctly
+#1 way is **Any** which is costly(dynamic dispatch) but comes with its own advantage, you can send in anything within the box as long as it fits 😜
+#2 way is **Some** is cost effective(statically dispatched) but only sends a sepecific type to the destination 😀
+
 ### Practical Differences in Use
 
 #### Existential Type Example (`any`):
