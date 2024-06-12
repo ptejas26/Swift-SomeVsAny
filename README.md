@@ -86,3 +86,6 @@ print(someFlyable.distance) // This will always be from Aeroplane, known at comp
 - **`some` (Opaque Types):** Provides type consistency and compile-time guarantees, allows for optimizations, uses static dispatch, and hides the concrete type from the caller while ensuring it remains consistent.
 
 These differences make `some` ideal for cases where you want the performance benefits and type safety of a known but hidden type, while `any` is better for scenarios where flexibility and type-agnosticism are needed.
+
+### Output 
+![image info](./SomevsAnyOutput.png)
